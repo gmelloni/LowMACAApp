@@ -1,0 +1,13 @@
+citHeader("To cite package cooccur in publications use:")
+
+citEntry(entry = "Article",
+         title = "cooccur: Probabilistic Species Co-occurrence Analysis in R",
+         author = personList(as.person("Daniel M. Griffith"),
+                             as.person("Joseph A. Veech"),
+                             as.person("Charles J. Marsh")),
+         year = 2014,
+         journal = "in review JSS",
+         textVersion =
+         paste0("Daniel Griffith, Joseph Veech, and Charles Marsh (",
+                2014,
+                "). cooccur: Probabilistic Species Co-occurrence Analysis in R"))
