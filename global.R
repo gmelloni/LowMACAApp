@@ -9,6 +9,7 @@ library(devtools)
 
 # While waiting that the LowMACA package passes to version 1.1, we have to call it as an external package
 library(LowMACA)
+library(LowMACAAnnotation)
 # load_all(file.path("data" , "v0.99.5_bis" , "LowMACAAnnotation"))
 # load_all(file.path("data" , "v0.99.5_bis" , "LowMACA"))
 devtools::load_all(file.path("data" , "cooccur"))
