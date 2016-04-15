@@ -21,7 +21,7 @@ LowMACA relies on some external libraries. Let's start by installing them.
 ```{r}
 myLibraries <- c("googleVis","reshape2","plyr","d3Network","ggplot2"
                 ,"dplyr","shinythemes","shinydashboard","DT","gmp")
-sapply(neededLibraries , function(x) if(!x %in% installed.packages()[,1]) install.packages(x))
+sapply(myLibraries , function(x) if(!x %in% installed.packages()[,1]) install.packages(x))
 
 source("https://bioconductor.org/biocLite.R")
 biocLite("LowMACAAnotation")
