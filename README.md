@@ -30,7 +30,7 @@ biocLite("LowMACA")
 If everything is ok, run the app in this way:
 ```{r}
 if (!require('shiny')) install.packages("shiny")
-shiny::runGitHub("transformPhenotype", "gmelloni" , ref="production")
+shiny::runGitHub("LowMACAApp", "gmelloni")
 ```
 
 ## KNOWN ISSUES
